@@ -19,6 +19,30 @@
 
 ![image](https://github.com/towards-sweetly/service-log/assets/92219795/7270a5ef-0050-42ac-aa83-37859c79ff7b)
 
+### ERD
+
+식품은 식품 이름, 1회 제공량(g), 열량(kcal), 탄수화물(g), 단백질(g), 지방(g), 당류(g), 나트륨(mg), 콜레스테롤(mg), 포화지방산(g), 트랜스지방산(g) 정보를 가진다.
+
+```mermaid
+erDiagram
+
+FOOD { 
+	string id
+	string name 
+	string serving-size-gram
+	string calories-kcal
+	string carbohydrates-g
+	string protein-g
+	string fat-g
+	string sugars-g
+	string sodium-mg
+	string cholesterol-mg
+	string saturated-fatty-acids-g
+	string trans-fatty-acids-g
+}
+
+```
+
 ### 모델링
 
 #### Script
