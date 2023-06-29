@@ -15,14 +15,18 @@
 
 ![image](https://github.com/towards-sweetly/service-log/assets/92219795/6e6558da-6b92-4687-857c-9ceb09f836da)
 
+### 진행 흐름
+
+![image](https://github.com/towards-sweetly/service-log/assets/92219795/7270a5ef-0050-42ac-aa83-37859c79ff7b)
+
 ### 모델링
 
-### Script
+#### Script
 
 - Script File
-	- 공공 데이터에서 데이터를 추출데 스토리지에 저장한다.
+	- 공공 데이터에서 데이터를 추출해 스토리지에 저장한다.
 
-#### Web Application
+#### Web Application Server
 
 **Presentation Layer**
 
